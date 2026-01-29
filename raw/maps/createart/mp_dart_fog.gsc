@@ -1,0 +1,94 @@
+// _createart generated.  modify at your own risk. 
+main()
+{
+	ent = maps\mp\_art::create_vision_set_fog( "mp_dart" );
+	ent.startDist =            200;
+	ent.halfwayDist =          3500;
+	ent.red =                  0.54;
+	ent.green =                0.54;
+	ent.blue =                 0.54;
+	ent.HDRColorIntensity =    1;
+	ent.maxOpacity =           0.75;
+	ent.transitionTime =       0;
+	ent.sunFogEnabled =        1;
+	ent.sunRed =               0.92;
+	ent.sunGreen =             0.69;
+	ent.sunBlue =              0.44;
+	ent.HDRSunColorIntensity = 1;
+	ent.sunDir =               (-0.27, -0.86, 0.4);
+	ent.sunBeginFadeAngle =    15;
+	ent.sunEndFadeAngle =      60;
+	ent.normalFogScale =       2.25;
+	ent.skyFogIntensity =      1;
+	ent.skyFogMinAngle =       61;
+	ent.skyFogMaxAngle =       85;
+	ent.HDROverride =          "mp_dart_HDR";
+ 
+	ent = maps\mp\_art::create_vision_set_fog( "mp_dart_HDR" );
+	ent.startDist =            450;
+	ent.halfwayDist =          5500;
+	ent.red =                  0.716787;
+	ent.green =                0.70798;
+	ent.blue =                 0.530292;
+	ent.HDRColorIntensity =    2;
+	ent.maxOpacity =           0.75;
+	ent.transitionTime =       0;
+	ent.sunFogEnabled =        1;
+	ent.sunRed =               1;
+	ent.sunGreen =             0.789878;
+	ent.sunBlue =              0.568345;
+	ent.HDRSunColorIntensity = 1.70404;
+	ent.sunDir =               (-0.0711796, -0.983421, 0.166783);
+	ent.sunBeginFadeAngle =    20;
+	ent.sunEndFadeAngle =      67;
+	ent.normalFogScale =       1;
+	ent.skyFogIntensity =      1;
+	ent.skyFogMinAngle =       40;
+	ent.skyFogMaxAngle =       90;
+ 
+	ent = maps\mp\_art::create_vision_set_fog( "mp_dart_indoor_ng" );
+	ent.startDist =            200;
+	ent.halfwayDist =          3500;
+	ent.red =                  0.54;
+	ent.green =                0.54;
+	ent.blue =                 0.54;
+	ent.HDRColorIntensity =    1;
+	ent.maxOpacity =           0.75;
+	ent.transitionTime =       0;
+	ent.sunFogEnabled =        1;
+	ent.sunRed =               0.92;
+	ent.sunGreen =             0.69;
+	ent.sunBlue =              0.44;
+	ent.HDRSunColorIntensity = 1;
+	ent.sunDir =               (-0.27, -0.86, 0.4);
+	ent.sunBeginFadeAngle =    15;
+	ent.sunEndFadeAngle =      60;
+	ent.normalFogScale =       2.25;
+	ent.skyFogIntensity =      1;
+	ent.skyFogMinAngle =       61;
+	ent.skyFogMaxAngle =       85;
+	ent.HDROverride =          "mp_dart_indoor_ng_HDR";
+ 
+	ent = maps\mp\_art::create_vision_set_fog( "mp_dart_indoor_ng_HDR" );
+	ent.startDist =            450;
+	ent.halfwayDist =          5500;
+	ent.red =                  0.716787;
+	ent.green =                0.70798;
+	ent.blue =                 0.530292;
+	ent.HDRColorIntensity =    2;
+	ent.maxOpacity =           0.75;
+	ent.transitionTime =       0;
+	ent.sunFogEnabled =        1;
+	ent.sunRed =               1;
+	ent.sunGreen =             0.789878;
+	ent.sunBlue =              0.568345;
+	ent.HDRSunColorIntensity = 1.70404;
+	ent.sunDir =               (-0.0711796, -0.983421, 0.166783);
+	ent.sunBeginFadeAngle =    20;
+	ent.sunEndFadeAngle =      67;
+	ent.normalFogScale =       1;
+	ent.skyFogIntensity =      1;
+	ent.skyFogMinAngle =       40;
+	ent.skyFogMaxAngle =       90;
+ 
+}

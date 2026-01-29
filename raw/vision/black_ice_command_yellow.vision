@@ -1,0 +1,42 @@
+r_glow                                "1"
+r_glowRadius0                         "32"
+r_glowBloomPinch                      "0"
+r_glowBloomCutoff                     "0.682"
+r_glowBloomDesaturation               "0"
+r_glowBloomIntensity0                 "0.968"
+
+r_filmEnable                          "1"
+r_filmContrast                        "1"
+r_filmBrightness                      "0"
+r_filmDesaturation                    "0"
+r_filmDesaturationDark                "0"
+r_filmInvert                          "0"
+r_filmLightTint                       "2 1.934 1.691"
+r_filmMediumTint                      "1.199 1.187 1.122"
+r_filmDarkTint                        "0.97 0.548 0.129"
+
+r_primaryLightUseTweaks               "0"
+r_primaryLightTweakDiffuseStrength    "1"
+r_primaryLightTweakSpecularStrength   "1"
+
+
+r_volumeLightScatter                  "1"
+r_volumeLightScatterColor             "0.447 0.235 0.016"
+r_volumeLightScatterLinearAtten       "1.07"
+r_volumeLightScatterQuadraticAtten    "0.7"
+r_volumeLightScatterAngularAtten      "0.38"
+r_volumeLightScatterDepthAttenNear    "0"
+r_volumeLightScatterDepthAttenFar     "0"
+r_volumeLightScatterBackgroundDistance "7644.29"
+
+r_ssaoStrength                        "3"
+r_ssaoPower                           "1.2"
+
+r_materialBloomIntensity              "0.5"
+r_materialBloomRadius                 "18.37"
+r_materialBloomLuminanceCutoff        "1"
+r_materialBloomPinch                  "0"
+r_materialBloomDesaturation           "0"
+
+colorizationSet	"black_ice_command_yellow_colorset"
+toneMapping	"black_ice_interior_fire_tone"

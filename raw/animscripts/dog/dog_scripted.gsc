@@ -1,0 +1,54 @@
+#using_animtree( "dog" );
+
+main()
+{
+	if ( isdefined( level.shark_functions ) )
+	{
+		if ( issubstr( self.model, "shark" ) )
+		{
+			self [[ level.shark_functions["scripted"] ]]();
+			return;
+		}
+	}
+	
+	self endon( "death" );
+	self notify( "killanimscript" );
+
+	self.codeScripted[ "root" ] = %body;	// TEMP!
+
+	self endon( "end_sequence" );
+	self startscriptedanim( self.codeScripted[ "notifyName" ], self.codeScripted[ "origin" ], self.codeScripted[ "angles" ], self.codeScripted[ "anim" ], self.codeScripted[ "animMode" ], self.codeScripted[ "root" ], self.codeScripted[ "goalTime" ] );
+
+	self.codeScripted = undefined;
+
+	if ( isdefined( self.deathstring_passed ) )
+		self.deathstring = self.deathstring_passed;
+
+	self waittill( "killanimscript" );
+}
+
+init( notifyName, origin, angles, theAnim, animMode, root, goalTime )
+{
+	if ( isdefined( level.shark_functions ) )
+	{
+		if ( issubstr( self.model, "shark" ) )
+		{
+			self [[ level.shark_functions["scripted_init"] ]]( notifyName, origin, angles, theAnim, animMode, root );
+			return;
+		}
+	}
+	
+	self.codeScripted[ "notifyName" ] = notifyName;
+	self.codeScripted[ "origin" ] = origin;
+	self.codeScripted[ "angles" ] = angles;
+	self.codeScripted[ "anim" ] = theAnim;
+	if ( isDefined( animMode ) )
+		self.codeScripted[ "animMode" ] = animMode;
+	else
+		self.codeScripted[ "animMode" ] = "normal";
+	if ( isDefined( root ) )
+		self.codeScripted[ "root" ] = root;
+	else
+		self.codeScripted[ "root" ] = %body;
+	self.codeScripted[ "goalTime" ] = goalTime;
+}

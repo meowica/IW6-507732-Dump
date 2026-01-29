@@ -1,0 +1,36 @@
+r_glow                                "1"
+r_glowRadius0                         "24"
+r_glowBloomCutoff                     "0.86"
+r_glowBloomDesaturation               "0"
+r_glowBloomIntensity0                 "1.2"
+
+r_filmEnable                          "1"
+r_filmContrast                        "1.02"
+r_filmBrightness                      "0.06"
+r_filmDesaturation                    "1.85"
+r_filmDesaturationDark                "-0.11"
+r_filmInvert                          "0"
+r_filmLightTint                       "0.518 0.769 1.012"
+r_filmMediumTint                      "0.659 0.918 1.161"
+r_filmDarkTint                        "0.722 1.02 1.373"
+
+r_primaryLightUseTweaks               "1"
+r_primaryLightTweakDiffuseStrength    "1"
+r_primaryLightTweakSpecularStrength   "4.35"
+
+r_volumeLightScatter                  "0"
+r_volumeLightScatterColor             "2 2 2"
+r_volumeLightScatterLinearAtten       "1"
+r_volumeLightScatterQuadraticAtten    "0"
+r_volumeLightScatterAngularAtten      "0.25"
+r_volumeLightScatterBackgroundDistance "100000"
+
+r_ssaoStrength                        "3"
+r_ssaoPower                           "1"
+
+r_materialBloomIntensity              "0"
+r_materialBloomRadius                 "2"
+r_materialBloomLuminanceCutoff        "0.8"
+r_materialBloomPinch                  "0"
+r_materialBloomDesaturation           "0"
+

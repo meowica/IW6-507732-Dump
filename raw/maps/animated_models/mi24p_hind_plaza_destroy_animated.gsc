@@ -1,0 +1,18 @@
+#include common_scripts\utility;
+
+#using_animtree( "animated_props" );
+main()
+{
+    if( !isdefined ( level.anim_prop_models ) )
+        level.anim_prop_models = [];
+        
+       
+    model = "vehicle_mi24p_hind_plaza_body_destroy_animated";
+    if ( isSP() )
+    {
+        level.anim_prop_models[ model ][ "self.wind" ] = %mi24p_hind_plaza_destroy_animated;
+    }
+    else
+        level.anim_prop_models[ model ][ "self.wind" ] = "mi24p_hind_plaza_destroy_animated";
+}
+    
